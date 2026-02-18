@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+
+# Виртуальное окружение
+venv/
+env/
+.env
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Данные (приватные!)
+data/*.txt
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
