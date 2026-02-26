@@ -1,5 +1,6 @@
-from .config import VALID_MOODS
+from config import VALID_MOODS
 #VALID_MOODS = ('good', 'bad', 'neutral', 'excellent')
+
 
 def validate_mood() -> str:
     """Валидирует настроение."""

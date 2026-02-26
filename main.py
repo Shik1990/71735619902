@@ -1,8 +1,8 @@
 # main.py
 """Основная программа дневника настроений"""
 
-
-from mood_diary import add_entry, get_all_entries, show_stats, APP_NAME, DEBUG, get_data_file, is_debug
+from config import APP_NAME, VERSION, get_data_file, is_debug, DEBUG
+from mood_diary import add_entry, get_all_entries, show_stats
 
 
 def main():
