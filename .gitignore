@@ -22,3 +22,10 @@ data/*.txt
 # OS
 .DS_Store
 Thumbs.db
+
+# Тесты
+.pytest_cache/
+tests/
+tests/*.py
+.coverage
+htmlcov/
